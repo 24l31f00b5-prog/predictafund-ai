@@ -1,0 +1,12 @@
+{
+  "name": "predictafund-backend",
+  "version": "1.0.0",
+  "description": "Backend API for PredictaFund AI platform",
+  "scripts": {
+    "dev": "echo 'Backend placeholder - integrate with Supabase'",
+    "build": "echo 'Backend placeholder - integrate with Supabase'",
+    "start": "echo 'Backend placeholder - integrate with Supabase'"
+  },
+  "keywords": ["api", "backend", "supabase"],
+  "author": "PredictaFund Team"
+}

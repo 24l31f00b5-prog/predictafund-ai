@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
+# PredictaFund AI Platform
 
-## Project info
+An AI-powered crowdfunding platform that revolutionizes fundraising through intelligent predictions and data-driven insights.
 
-**URL**: https://lovable.dev/projects/93e0b55e-5365-4f37-8209-c786ae8c35fb
+## Repository Structure
 
-## How can I edit this code?
+```
+├── frontend/          # React frontend application
+│   ├── src/          # Source code
+│   ├── public/       # Static assets
+│   └── README.md     # Frontend-specific documentation
+├── backend/          # Backend API (placeholder for Supabase integration)
+│   └── README.md     # Backend-specific documentation
+└── README.md         # This file
+```
 
-There are several ways of editing your application.
+## Quick Start
 
-**Use Lovable**
+### Frontend Development
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/93e0b55e-5365-4f37-8209-c786ae8c35fb) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+cd frontend
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The frontend will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Backend Development
 
-**Use GitHub Codespaces**
+The backend is currently a placeholder. The platform uses Supabase for backend functionality including:
+- Authentication
+- Database operations
+- Real-time updates
+- Edge Functions
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+To set up backend functionality:
+1. Connect to Supabase via Lovable's native integration
+2. Configure database tables and authentication
+3. Implement Edge Functions as needed
 
-## What technologies are used for this project?
+## Project Overview
 
-This project is built with:
+**URL**: https://lovable.dev/projects/93e0b55e-5365-4f37-8209-c786ae8c35fb
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Technologies
 
-## How can I deploy this project?
+### Frontend
+- React 18 with TypeScript
+- Vite for build tooling
+- Tailwind CSS for styling
+- shadcn/ui component library
+- React Router for navigation
+- TanStack Query for data fetching
 
-Simply open [Lovable](https://lovable.dev/projects/93e0b55e-5365-4f37-8209-c786ae8c35fb) and click on Share -> Publish.
+### Backend (Planned)
+- Supabase for backend services
+- PostgreSQL database
+- Edge Functions for serverless logic
+- Real-time subscriptions
 
-## Can I connect a custom domain to my Lovable project?
+## Features
 
-Yes, you can!
+- 🎯 **AI-Powered Predictions**: Smart campaign success forecasting
+- 📊 **Analytics Dashboard**: Comprehensive campaign insights
+- 🚀 **Campaign Management**: Easy campaign creation and tracking
+- 👥 **User Authentication**: Secure user management
+- 📱 **Responsive Design**: Mobile-first approach
+- 🌙 **Dark Mode**: Theme switching support
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Development Commands
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Frontend
+```bash
+cd frontend
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run preview  # Preview production build
+```
+
+### Backend
+```bash
+cd backend
+npm run dev      # Start backend development (placeholder)
+```
+
+## Deployment
+
+The project can be deployed using Lovable's built-in deployment:
+1. Open the [Lovable Project](https://lovable.dev/projects/93e0b55e-5365-4f37-8209-c786ae8c35fb)
+2. Click Share → Publish
+
+For custom domains, navigate to Project > Settings > Domains.
+
+## Contributing
+
+1. Create a new branch for your feature
+2. Make your changes in the appropriate directory (frontend/ or backend/)
+3. Test your changes
+4. Submit a pull request
+
+## License
+
+Private project - All rights reserved.
